@@ -1,0 +1,20 @@
+{
+  "name": "SFTabController",
+  "version": "0.0.1",
+  "summary": "Tab标签控制器.",
+  "description": "Tab标签控制器",
+  "homepage": "http://EXAMPLE/SFTabController",
+  "license": "MIT",
+  "authors": {
+    "XuJiayao": "xujiayao91@163.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "",
+    "tag": "0.0.1"
+  },
+  "source_files": "SFTabController/**/*.{h,m}",
+  "public_header_files": "SFTabController/**/*.h"
+}

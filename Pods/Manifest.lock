@@ -1,0 +1,41 @@
+PODS:
+  - fishhook (0.2)
+  - SFAppEntry (0.0.1):
+    - SFComponent
+  - SFComponent (0.0.1):
+    - fishhook
+  - SFTabBarComponent (0.0.1):
+    - SFComponent
+  - SFUserCenter (0.0.1):
+    - SFComponent
+
+DEPENDENCIES:
+  - SFAppEntry (from `../SFAppEntry`)
+  - SFComponent (from `../SFComponent`)
+  - SFTabBarComponent (from `../SFTabBarComponent`)
+  - SFUserCenter (from `../SFUserCenter`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - fishhook
+
+EXTERNAL SOURCES:
+  SFAppEntry:
+    :path: "../SFAppEntry"
+  SFComponent:
+    :path: "../SFComponent"
+  SFTabBarComponent:
+    :path: "../SFTabBarComponent"
+  SFUserCenter:
+    :path: "../SFUserCenter"
+
+SPEC CHECKSUMS:
+  fishhook: ea19933abfe8f2f52c55fd8b6e2718467d3ebc89
+  SFAppEntry: 3116719933444bf37e7c94278757b0a5b7fd0a0d
+  SFComponent: d5bc27582655ffa947820f671fb9470bfa4e892d
+  SFTabBarComponent: b9a725d07892ce91555b357f1f6b43fa507e5659
+  SFUserCenter: 2f2f922ff99b9113ab56c40b80be66590d3a916d
+
+PODFILE CHECKSUM: 0c7c3f59a7da1cb3f7001d7473c5726f73ae991f
+
+COCOAPODS: 1.5.0
