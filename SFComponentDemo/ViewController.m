@@ -18,6 +18,7 @@
 #import <SFComponent/SFInjection.h>
 #import <SFComponent/SFView.h>
 #import <SFComponent/SFSandbox.h>
+#import <SFComponent/SFComponentManager.h>
 
 @interface ViewController () <SFViewProtocol>
 
@@ -70,6 +71,8 @@
     NSString *c = [SFSandbox cachesRootPathWithComponentName:[SFDemo1 componentName]];
     NSString *d = [SFSandbox tempRootPathWithComponentName:[SFDemo1 componentName]];
     
+    BOOL isValid = [[SFComponentManager sharedInstance] isComponentValid:[SFDemo1 componentName]];
+    BOOL isStartup = [[SFComponentManager sharedInstance] isComponentStartup:[SFDemo1 componentName]];
     int dd = 0 ;
 }
 

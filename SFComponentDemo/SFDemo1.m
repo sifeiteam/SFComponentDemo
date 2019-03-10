@@ -15,6 +15,10 @@
 
 @implementation SFDemo1
 
++ (BOOL)startupWhenAppLaunched {
+    return YES;
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     int i = 0;
     
