@@ -16,7 +16,12 @@
     "tag": "0.0.1"
   },
   "source_files": "SFUserCenter/**/*.{h,m}",
-  "public_header_files": "SFUserCenter/**/*.h",
+  "public_header_files": "SFUserCenter/inc/**/*.h",
+  "resource_bundles": {
+    "SFUserCenterBundle": [
+      "SFUserCenterBundle/*"
+    ]
+  },
   "dependencies": {
     "SFComponent": [
 

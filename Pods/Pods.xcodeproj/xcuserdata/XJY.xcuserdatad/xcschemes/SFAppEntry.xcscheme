@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "51EEE2B0F62B0FD966A485C5D9BB5FB1"
+               BlueprintIdentifier = "D2314AE26C3275F0AE6285760F703087"
                BlueprintName = "SFAppEntry"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libSFAppEntry.a">

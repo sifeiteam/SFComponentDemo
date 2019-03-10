@@ -6,5 +6,6 @@ pod 'SFComponent', :path => '../SFComponent'
 pod 'SFAppEntry', :path => '../SFAppEntry'
 pod 'SFTabBarComponent', :path => '../SFTabBarComponent'
 pod 'SFUserCenter', :path => '../SFUserCenter'
+pod 'SFDiary', :path => '../SFDiary'
 
 end

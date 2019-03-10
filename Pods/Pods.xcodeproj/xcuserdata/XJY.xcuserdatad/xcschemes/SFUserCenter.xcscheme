@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6CC1EB0EE9368EDC5A3B1CE125CE6116"
+               BlueprintIdentifier = "EB6A3A948624758AD273691D92C470F8"
                BlueprintName = "SFUserCenter"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libSFUserCenter.a">

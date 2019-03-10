@@ -17,6 +17,11 @@
   },
   "source_files": "SFTabBarComponent/**/*.{h,m}",
   "public_header_files": "SFTabBarComponent/SFTabBarComponent.h",
+  "resource_bundles": {
+    "SFTabBarComponentBundle": [
+      "SFTabBarComponentBundle/*"
+    ]
+  },
   "dependencies": {
     "SFComponent": [
 

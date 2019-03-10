@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A34723768897B08936378CBBCE97EC59"
-               BlueprintName = "SFComponent"
+               BlueprintIdentifier = "8D4D6D22504A36C20A4C18A743293BB4"
+               BlueprintName = "SFDiary"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libSFComponent.a">
+               BuildableName = "libSFDiary.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

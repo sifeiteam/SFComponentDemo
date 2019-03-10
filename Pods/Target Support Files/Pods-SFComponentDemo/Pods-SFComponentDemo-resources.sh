@@ -93,9 +93,15 @@ EOM
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/SFComponent/SFComponentBundle.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/SFDiary/SFDiaryBundle.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/SFTabBarComponent/SFTabBarComponentBundle.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/SFUserCenter/SFUserCenterBundle.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/SFComponent/SFComponentBundle.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/SFDiary/SFDiaryBundle.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/SFTabBarComponent/SFTabBarComponentBundle.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/SFUserCenter/SFUserCenterBundle.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

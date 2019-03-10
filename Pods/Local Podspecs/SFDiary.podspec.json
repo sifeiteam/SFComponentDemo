@@ -1,0 +1,30 @@
+{
+  "name": "SFDiary",
+  "version": "0.0.1",
+  "summary": "日记",
+  "description": "日记",
+  "homepage": "http://EXAMPLE/SFDiary",
+  "license": "MIT",
+  "authors": {
+    "XuJiayao": "xujiayao91@163.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "",
+    "tag": "0.0.1"
+  },
+  "source_files": "SFDiary/**/*.{h,m}",
+  "public_header_files": "SFDiary/inc/**/*.h",
+  "resource_bundles": {
+    "SFDiaryBundle": [
+      "SFDiaryBundle/*"
+    ]
+  },
+  "dependencies": {
+    "SFComponent": [
+
+    ]
+  }
+}

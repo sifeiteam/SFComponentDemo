@@ -4,6 +4,8 @@ PODS:
     - SFComponent
   - SFComponent (0.0.1):
     - fishhook
+  - SFDiary (0.0.1):
+    - SFComponent
   - SFTabBarComponent (0.0.1):
     - SFComponent
   - SFUserCenter (0.0.1):
@@ -12,6 +14,7 @@ PODS:
 DEPENDENCIES:
   - SFAppEntry (from `../SFAppEntry`)
   - SFComponent (from `../SFComponent`)
+  - SFDiary (from `../SFDiary`)
   - SFTabBarComponent (from `../SFTabBarComponent`)
   - SFUserCenter (from `../SFUserCenter`)
 
@@ -24,6 +27,8 @@ EXTERNAL SOURCES:
     :path: "../SFAppEntry"
   SFComponent:
     :path: "../SFComponent"
+  SFDiary:
+    :path: "../SFDiary"
   SFTabBarComponent:
     :path: "../SFTabBarComponent"
   SFUserCenter:
@@ -33,9 +38,10 @@ SPEC CHECKSUMS:
   fishhook: ea19933abfe8f2f52c55fd8b6e2718467d3ebc89
   SFAppEntry: 3116719933444bf37e7c94278757b0a5b7fd0a0d
   SFComponent: d5bc27582655ffa947820f671fb9470bfa4e892d
-  SFTabBarComponent: b9a725d07892ce91555b357f1f6b43fa507e5659
-  SFUserCenter: 2f2f922ff99b9113ab56c40b80be66590d3a916d
+  SFDiary: d58376d79e8c363efb23d6a4d9eae3167bc57701
+  SFTabBarComponent: 1f5f427df028762e795cf0ffd3351075d3f602d9
+  SFUserCenter: 1ab654566a432075f0c1a87bd2bccdd2c96e35e6
 
-PODFILE CHECKSUM: 0c7c3f59a7da1cb3f7001d7473c5726f73ae991f
+PODFILE CHECKSUM: 10961c5cc8c3935f994aa0833a2644c6ab531aa9
 
 COCOAPODS: 1.5.0
